@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,600,600i,800,800i&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+  <header>
+    <div class="logo">
+      <p>calculator</p>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <div class="vertical-center">
+
+
+      <form>
+        <div class="title">
+          <p>Value 01</p>
+        </div>
+        <div class="input">
+          <input type="text" id="value01">
+        </div>
+        <div class="title">
+          <p>Value 02</p>
+        </div>
+        <div class="input">
+          <input type="text" id="value02">
+        </div>
+        <div class="title">
+          <p>Operator</p>
+        </div>
+        <div class="symbols">
+
+          <div class="operator">
+            <input class="call" type="radio" name="symbols" id="add" value="add" checked>
+            <label for="add">+</label>
+          </div>
+
+          <div class="operator">
+            <input class="call" type="radio" name="symbols" id="min" value="min">
+            <label for="min">-</label>
+          </div>
+
+          <div class="operator">
+            <input class="call" type="radio" name="symbols" id="mul" value="mul">
+            <label for="mul">x</label>
+          </div>
+
+          <div class="operator">
+            <input class="call" type="radio" name="symbols" id="div" value="div">
+            <label for="div">/</label>
+          </div>
+
+        </div>
+        <!--
+        <div class="rolldown">
+          <select id="operator">
+            <option value="add">Add</option>
+            <option value="min">Minus</option>
+            <option value="div">Divide</option>
+            <option value="mul">Multiply</option>
+          </select><br><br>
+        </div>
+      -->
+        <div class="input">
+          <button type="button" name="button" onclick="calc()">Calculate!</button>
+        </div>
+      </form><br>
+
+      <div class="title">
+        <p>Result</p>
+      </div>
+
+      <div class="result" id="result"></div>
+      </div>
+
+
+    </div>
+  </main>
+  <footer>
+  </footer>
+
+
+
+</body>
+
+<script src="main.js">
+  /* CONDITIONS
+
+var x = 20;
+var y = 50;
+
+if (x==10 && y==10){
+  console.log("If!");
+} else if (x > 15) {
+  console.log("ElseIF!");
+} else if (x > 10) {
+  console.log("ElseIF2!");
+} else {
+  console.log("Bananas!")
+}
+*/
+
+  /*
+  var age = 18;
+  var gender = "female";
+
+  if (gender == "male") {
+    if (age >= 18){
+    console.log("You're a " + gender + " and above the age limit!");
+    } else {
+    console.log("Sorry man");
+    }
+  } else if (gender == "female"){
+    if (age >= 18){
+    console.log("You're a " + gender + " and above the age limit!");
+    } else {
+    console.log("Sorry woman");
+    }
+  } else {
+    console.log("Not specified");
+  }
+  */
+
+  /* ARRAYS
+
+  var item0 = "Banana";
+  var item1 = 120;
+  var item2 = false;
+  var items = ["Banana", 120, false];
+
+  if (items[0] == item0) {
+    console.log("Banana!");
+  } else if (items[1] == item1){
+    console.log("numero 120");
+  } else if (items[2] == false){
+    console.log("Errou");
+  } else {
+    console.log("Nenhuma das anteriores");
+  }
+
+  */
+</script>
+
+</html>
